@@ -23,7 +23,7 @@ public class ChatService {
         MessageDTO message = new MessageDTO("user", userMessage);
 
         GroqRequestDTO request = new GroqRequestDTO(
-                "llama3-8b-8192",
+                "llama-3.3-70b-versatile",
                 List.of(message)
         );
 
